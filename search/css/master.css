@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.search-section .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minMax(300px, 1fr));
+    gap: 12px;
+    padding: 15px;
+}
+
+.search-section .products .product {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.search-section .products .product .image {
+    width: 100%;
+}
+
+.search-section .products .product .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.products .product .text {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.products .product .text h2 {
+    font-size: 26px;
+    line-height: 35.54px;
+    color: #343a40;
+}
+
+.products .product .text .price {
+    font-size: 22px;
+    line-height: 30.07px;
+    color: #7749f8;
+}
+
+.products .product .text .description {
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(52, 58, 64, 80%);
+}
+
+.products .product .btn {
+    width: 100%;
+    min-height: 50px;
+    padding: 12px;
+}
+
+.products .product .btn button {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 21.87px;
+    color: white;
+    background-color: #7749f8;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
